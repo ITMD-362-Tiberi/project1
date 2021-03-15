@@ -36,7 +36,7 @@ nav {
     flex-direction: column;
     max-height: fit-content;
 }
-nav button {
+nav a {
     margin-bottom: 1em;
     grid-column: 2;
     width: 98.75%;
@@ -45,6 +45,7 @@ nav button {
     background-color: white;
     border: 1px solid #1C2022;
     border-radius: 4px;
+    text-align: center;
 }
 .top_trim {
     grid-row: 1;
@@ -98,4 +99,11 @@ article p{
 }
 
 @media screen and (min-width: 769px) {
+    article img {
+        width: 50%;
+    }
+    nav button {
+        width: 25%;
+        align-self: center;
+    }
 }
