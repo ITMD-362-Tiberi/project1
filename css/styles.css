@@ -102,7 +102,7 @@ article p{
     article img {
         width: 50%;
     }
-    nav button {
+    nav a {
         width: 25%;
         align-self: center;
     }
