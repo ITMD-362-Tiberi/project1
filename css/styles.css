@@ -124,5 +124,13 @@ form li {
 }
 
 @media screen and (min-width: 999px) {
-    
+    nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    nav a {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
