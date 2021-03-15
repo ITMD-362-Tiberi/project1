@@ -80,6 +80,16 @@ article img {
     width: 90%;
 }
 
+h2{
+    margin-top: 1em;
+    text-decoration: underline;
+}
+
+article p{
+    margin-top: 1em;
+    font-size: small;
+}
+
 .border-gradient {
     border: 10px solid;
     border-image-slice: 1;
