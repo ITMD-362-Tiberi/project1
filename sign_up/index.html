@@ -21,7 +21,7 @@
     </nav>
   </header>
   <div class="btt_trim">&nbsp;</div>
-  <dd class="slogan center" id="jsStatus">Sign Up</dd>
+  <aside class="slogan center" id="jsStatus">Sign Up</aside>
   <form name="su_form" class="border-gradient">
     <ol>
         <li>
@@ -34,15 +34,15 @@
         </li>
         <li id="input-age-verification">
           <input type="checkbox" id="ageVerification" value="18" required/>
-          <label for="age-verification">I am over 18 years old</label>
+          <label>I am over 18 years old</label>
         </li>
         <li>
-            <label for="address">Address:</label>
+            <label>Address:</label>
             <input type="text" id="address" required/>
         </li>
         <li>
             <label for="ccn">Credit Card Number + CVV:</label>
-            <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx XXX" required/>
+            <input id="ccn" type="tel" pattern="[0-9\s]{13,19}" maxlength="19" placeholder="xxxx xxxx xxxx xxxx XXX" required/>
         </li>
         <li>
           <button type="button" onclick="validateSignUpForm()">Sign Up</button>
